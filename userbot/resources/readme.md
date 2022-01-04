@@ -1,2 +1,2 @@
-# Extra Resources for Man-Userbot
-Repository [Man-Userbot](https://github.com/mrismanaziz/Man-Userbot)
+# Extra Resources for Payis-userbot
+Repository [Payis-userbot](https://github.com/Payisun/Payis-userbot)
