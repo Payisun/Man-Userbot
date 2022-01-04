@@ -1,7 +1,7 @@
 {
-  "name": "Man-Userbot",
-  "description": "[Man-Userbot] userbot Telegram modular yang berjalan pada Python 3.9+",
-  "logo": "https://telegra.ph/file/9dc4e335feaaf6a214818.jpg",
+  "name": "Payis-Userbot",
+  "description": "[Payis-userbot] userbot Telegram modular yang berjalan pada Python 3.9+",
+  "logo": "https://telegra.ph/file/f09946b76fbdf00bb6d91.jpg",
   "keywords": ["telegram", "userbot", "man-userbot", "modular", "python"],
   "repository": "https://github.com/mrismanaziz/Man-Userbot",
   "stack": "container",
@@ -16,11 +16,11 @@
     },
     "BOT_TOKEN": {
       "description": "Buat Bot di t.me/botfather Masukan BOT tokennya disini",
-      "required": false
+      "required": true
     },
     "BOT_USERNAME": {
       "description": "Buat Bot di t.me/botfather Masukan BOT Usernamenya pake @",
-      "required": false
+      "required": true
     },
      "STRING_SESSION": {
       "description": "Dapatkan String Session di Grup » https://t.me/SharingUserbot » Lalu ketik #string",
