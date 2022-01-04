@@ -78,7 +78,7 @@ async def sangamata_seperator(sanga_list):
 CMD_HELP.update(
     {
         "sangmata": f"**Plugin : **`sangmata`\
-        \n\n  •  **Syntax :** `{cmd}sg` <sambil reply chat>\
+        \n\n  •  **Syntax :** `{cmd}sa` <sambil reply chat>\
         \n  •  **Function : **Mendapatkan Riwayat Nama Pengguna selama di telegram.\
         \n\n  •  **Syntax :** `{cmd}sgu` <sambil reply chat>\
         \n  •  **Function : **Mendapatkan Riwayat Username Pengguna selama di telegram.\
