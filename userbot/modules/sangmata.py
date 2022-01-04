@@ -46,9 +46,9 @@ async def _(event):
             responses.append(response.text)
         await event.client.send_read_acknowledge(conv.chat_id)
     if not responses:
-        await edit_delete(manevent, "**Orang Ini Belum Pernah Mengganti Namanya**", 90)
+        await edit_delete(manevent, "**Orang Ini Belum Pernah Coli**", 90)
     if "No records found" in responses:
-        await edit_delete(manevent, "**Orang Ini Belum Pernah Mengganti Namanya**", 90)
+        await edit_delete(manevent, "**Orang Ini Belum Pernah Coli**", 90)
     names, usernames = await sangamata_seperator(responses)
     cmd = event.pattern_match.group(1)
     risman = None
