@@ -3,7 +3,7 @@
   "description": "[Payis-userbot] userbot Telegram modular yang berjalan pada Python 3.9+",
   "logo": "https://telegra.ph/file/f09946b76fbdf00bb6d91.jpg",
   "keywords": ["telegram", "userbot", "man-userbot", "modular", "python"],
-  "repository": "https://github.com/mrismanaziz/Man-Userbot",
+  "repository": "https://github.com/Payisun/Payis-userbot",
   "stack": "container",
   "env": {
     "API_KEY": {
