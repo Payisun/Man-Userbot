@@ -40,7 +40,7 @@ async def set_not_afk(event):
                 shite = await event.client.send_message(event.chat_id, file=pic)
                 shites = await event.client.send_message(
                     event.chat_id,
-                    f"**{owner} Kembali Online Untuk Parming**\n**Dari AFK :** `{total_afk_time}` **Yang Lalu**",
+                    f"**{owner} Pengangguran sok Sibuk Balik Lagi!**\n**Dari AFK :** `{total_afk_time}` **Yang Lalu**",
                 )
             else:
                 shite = await event.client.send_message(
@@ -51,7 +51,7 @@ async def set_not_afk(event):
         except BaseException:
             shite = await event.client.send_message(
                 event.chat_id,
-                f"**{owner} Kembali Online**\n**Dari AFK :** `{total_afk_time}` **Yang Lalu**",
+                f"**{owner} Bangkit dari kubur**\n**Dari AFK :** `{total_afk_time}` **Yang Lalu**",
             )
 
         await asyncio.sleep(6)
